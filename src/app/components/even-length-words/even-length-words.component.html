@@ -1,0 +1,9 @@
+<span class="text-danger ">{{showEvenInput}}</span>
+@if (evenWords.length === 0) {
+  <p>No even length words</p>
+}
+@for(word of evenWords; track word){
+<p>{{word}}</p>
+
+}
+
